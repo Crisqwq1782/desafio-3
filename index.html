@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teclados | Akibatech</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" type="image/png" href="./assets/img/icon.png">
+</head>
+<body>
+
+    <aside class="sidebar-menu">
+        <div class="sidebar-header">
+            <img src="./assets/img/logo.png" alt="Logo Akibatech" class="sidebar-logo">
+        </div>
+        <ul class="sidebar-list">
+            <li class="category-item"><span>Teclados</span><span class="cantidad">5</span></li>
+            <li class="category-item"><span>Mouse</span><span class="cantidad">3</span></li>
+            <li class="category-item"><span>Tarjetas Gráficas</span><span class="cantidad">3</span></li>
+            <li class="category-item"><span>Monitores</span><span class="cantidad">2</span></li>
+            <li class="category-item"><span>Discos duros / SSD</span><span class="cantidad">4</span></li>
+        </ul>
+        <div class="sidebar-footer">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+    </aside>
+
+    <nav class="navbar">
+        <div class="mobile-logo-container">
+            <img src="./assets/img/logo.png" alt="Akibatech" class="mobile-logo">
+        </div>
+        
+        <div class="navicon">    
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-circle-user"></i>
+            <i class="fa-solid fa-bars mobile-toggle"></i>
+        </div>
+    </nav>
+
+    <section class="filter-section">
+        <div class="filter-container">
+            <label for="sort">Ordenar Por:</label>
+            <select id="sort" class="filter-select">
+                <option value="precio">Precio</option>
+                <option value="nombre">Nombre</option>
+                <option value="popularidad">Popularidad</option>
+            </select>
+        </div>
+    </section>
+
+    <main class="main-content">
+        <div class="card-container">
+            
+            <article class="card">
+                <div class="card-img-container">
+                    <img src="./assets/img/Hyperx.jpg" alt="Teclado Hyperx" class="card-img">
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Hyper X</h3>
+                    <p class="card-text">Teclado mecánico USB con switches de tipo red y RGB.</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn-primary">Ver más</button>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card-img-container">
+                    <img src="./assets/img/Redragon.jpg" alt="Teclado Redragon" class="card-img">
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Redragon</h3>
+                    <p class="card-text">Teclado mecánico USB con switch blue.</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn-primary">Ver más</button>
+                </div>
+            </article>
+            
+            <article class="card">
+                <div class="card-img-container">
+                    <img src="./assets/img/MARVO.jpg" alt="Teclado MARVO" class="card-img">
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">MARVO</h3>
+                    <p class="card-text">Teclado mecánico USB con switch blue y RGB personalizable.</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn-primary">Ver más</button>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card-img-container">
+                    <img src="./assets/img/Razer.jpg" alt="Teclado Razer" class="card-img">
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Razer</h3>
+                    <p class="card-text">Teclado mecánico USB con switch blue y RGB personalizable.</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn-primary">Ver más</button>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="card-img-container">
+                    <img src="./assets/img/Corsair.jpg" alt="Teclado Corsair" class="card-img">
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Corsair</h3>
+                    <p class="card-text">Teclado mecánico USB con switch blue y RGB personalizable.</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn-primary">Ver más</button>
+                </div>
+            </article>
+
+        </div>
+    </main>
+
+    <footer class="footer-mobile">
+        <p>Síguenos en nuestras redes!</p>
+        <div class="footer-icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+    </footer>
+
+</body>
+</html>
